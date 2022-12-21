@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaSearch,FaHome,} from 'react-icons/fa';
-import {MdGroups} from 'react-icons/md';
 import {HiUserPlus} from 'react-icons/hi2';
+import {IoBarChart} from 'react-icons/io5';
 
 const Navbar = () => {
     return (
@@ -23,8 +23,8 @@ const Navbar = () => {
 
                 {/* Nav item */}
                 <div className={`flex justify-center gap-x-10 items-center`}>
-                    <div className={`cursor-pointer hover:text-purplePrimary`}><FaHome className={`text-3xl`}></FaHome></div>
-                    <div className={`cursor-pointer hover:text-purplePrimary`}><MdGroups className={`text-3xl`}></MdGroups></div>
+                    <div className={`cursor-pointer hover:text-purplePrimary`}><FaHome className={`text-3xl`}></FaHome></div>                    
+                    <div className={`cursor-pointer hover:text-purplePrimary`}><IoBarChart className={`text-3xl`}></IoBarChart></div>                    
                 </div>
 
                 {/* user info */}

@@ -20,15 +20,16 @@ module.exports = {
         blackQuaternary: `var(--black-quaternary)`,
         blackQuinary: `var(--black-quinary)`,
 
-        // Purple Colors
+        // Others Colors
         purplePrimary: `var(--purple-primary)`,
-        // blackSecondary: `var(--black-secondary)`,
-        // blackTertiary: `var(--black-tertiary)`,
-        // blackQuaternary: `var(--black-quaternary)`,
-        // blackQuinary: `var(--black-quinary)`,
+        purpleSecondary: `var(--purple-secondary)`,
+        purplePrimary08: `var(--purple-primary-08)`,
+        beautyPrimary: `var(--beauty-primary)`,
+        greyPrimary: `var(--grey-primary)`,
       },
       fontFamily:{
         lobster: `var(--font-lobster)`,
+        raleway: `var(--font-raleway)`,
       }
     },
   },

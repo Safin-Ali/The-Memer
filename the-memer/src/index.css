@@ -21,14 +21,15 @@
     --black-secondary: #1F2146;
     --black-tertiary: #1B2430;
     --black-quaternary: #2f3542;
-    --black-quinary: #1e272e;
+    --black-quinary: #1e272e;    
 
-    /* Black Color Palette */
+    /* different Color Palette */
+    --beauty-primary: #FAF8FD;
     --purple-primary: #4834d4;
-    /* --black-secondary: #1F2146;
-    --white-tertiary: #1B2430;
-    --white-quaternary: #2f3542;
-    --white-quinary: #1e272e; */
+    --purple-secondary: #3d29cb;
+    --grey-primary: #9CA3AF;
+    --purple-primary-08: rgb(72, 52, 212,0.8);
+
 
     /* font family */
     --font-lobster: 'Lobster Two', cursive;
