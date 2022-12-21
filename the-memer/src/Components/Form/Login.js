@@ -47,15 +47,15 @@ const Login = () => {
                     {/* Form Field */}
                     <form onSubmit={handleForm}>
                         <div className={`my-3 lg:my-5`}>
-                            <p className={`text-lg lg:text-xl font-semibold my-2`}>Name</p>
+                            <p className={`text-lg lg:text-xl text-blackQuaternary font-semibold my-2`}>Name</p>
                             <CommonField className={'p-2 lg:p-2.5 focus:text-purplePrimary w-[90%]'} type='text' placeholder='Full name' name={`userName`}></CommonField>
                         </div>
                         <div className={`my-3 lg:my-5`}>
-                            <p className={`text-lg lg:text-xl font-semibold my-2`}>Email</p>
+                            <p className={`text-lg lg:text-xl text-blackQuaternary font-semibold my-2`}>Email</p>
                             <CommonField className={'p-2 lg:p-2.5 focus:text-purplePrimary w-[90%]'} type='email' placeholder='Email' name={`userEmail`}></CommonField>
                         </div>
                         <div className={`my-3 lg:my-5`}>
-                            <p className={`text-lg lg:text-xl font-semibold my-2`}>Password</p>
+                            <p className={`text-lg lg:text-xl text-blackQuaternary font-semibold my-2`}>Password</p>
                             <div className={`relative w-[90%]`}>
                                 <CommonField className={'p-2 lg:p-2.5 focus:text-purplePrimary w-full'} type={toggle ? 'text' : 'Password'} placeholder='Password' name={`userPass`}></CommonField>
 
